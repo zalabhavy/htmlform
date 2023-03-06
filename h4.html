@@ -1,0 +1,67 @@
+<html>
+    <head>
+    <link href="favicon.ico">
+        <title>
+            INTERFACE 
+        </title>
+        <body bgcolor="lightyellow">
+             <marquee behavior="slide" bgcolor="skyblue" direction="up" hspace="100" vspace="100" scrollamount="7" loop="2"><h1><center><i>PLEASE FILL YOUR INFORMATION</i></center></h1></marquee>
+             <form action = "form.php">
+                <h2>
+                    <center>
+                        Enter your name below:-
+                    </center><br>
+                </h2>
+                <center><input type="text" placeholder="ENTER YOUR NAME"></center>
+                <h2>
+                    <center>
+                        Select one option
+                    </center>
+                </h2>
+                <center>
+                <label for="info" >
+                    <input type = "radio" value="student" name="info" id="info">Student
+                </label>
+                <label for="info1">
+                    <input type = "radio" value="Teacher" name="info" id="info1">Teacher
+                </label>
+                <label for="info2" >
+                    <input type = "radio" value="Parents" name="info" id="info2">Parents
+                </label>
+                </center>
+                <br>
+                <center>
+                    <h2>
+                        Please select you gender
+                    </h2>
+                    <select name="gender" id="gender">
+                        <option>
+                        Select your gender
+                        </option>
+                        <option value="MALE">MALE</option>
+                        <option value="FEMALE">FEMALE</option>
+                        <option value="OTHER">OTHER</option>
+
+                    </select>
+                </center>
+                <center>
+                    <h2>
+                        Click for agree all applied conditions
+                    </h2>
+                </center>
+                <center>
+                    <label for="box">
+                        <input type = "checkbox" value="check" name="check" id="box">Agree all conditions
+
+                    </label>
+                </center>
+                <br>
+                <center>
+                    <button>
+                        <a href>SUBMIT</a>
+                    </button>
+                </center>
+             </form>
+        </body>
+    </head>
+</html>
